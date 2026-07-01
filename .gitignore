@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/meditwin.db
+backend/meditwin.db-wal
+backend/meditwin.db-shm
+.env
+node_modules/
+dist/

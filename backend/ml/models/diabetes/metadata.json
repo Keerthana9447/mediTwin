@@ -1,0 +1,250 @@
+{
+  "disease": "Diabetes",
+  "disease_key": "diabetes",
+  "dataset_name": "Pima Indians Diabetes Database",
+  "data_source": "offline_fallback",
+  "n_samples": 768,
+  "n_features": 8,
+  "positive_rate": 0.345,
+  "feature_names": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "best_model": "logistic_regression",
+  "model_kind": "linear",
+  "explainability_method": "Permutation Importance (SHAP unavailable)",
+  "all_models_compared": {
+    "logistic_regression": {
+      "accuracy": 0.8117,
+      "f1": 0.7521,
+      "roc_auc": 0.8954
+    },
+    "random_forest": {
+      "accuracy": 0.7662,
+      "f1": 0.64,
+      "roc_auc": 0.8498
+    },
+    "gradient_boosting": {
+      "accuracy": 0.7727,
+      "f1": 0.6667,
+      "roc_auc": 0.8322
+    }
+  },
+  "metrics": {
+    "accuracy": 0.8117,
+    "precision": 0.6875,
+    "recall": 0.8302,
+    "f1": 0.7521,
+    "roc_auc": 0.8954,
+    "confusion_matrix": {
+      "tn": 81,
+      "fp": 20,
+      "fn": 9,
+      "tp": 44
+    },
+    "roc_curve": [
+      {
+        "fpr": 0.0,
+        "tpr": 0.0
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.0189
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.4906
+      },
+      {
+        "fpr": 0.0198,
+        "tpr": 0.4906
+      },
+      {
+        "fpr": 0.0198,
+        "tpr": 0.5094
+      },
+      {
+        "fpr": 0.0297,
+        "tpr": 0.5094
+      },
+      {
+        "fpr": 0.0297,
+        "tpr": 0.5283
+      },
+      {
+        "fpr": 0.0396,
+        "tpr": 0.5283
+      },
+      {
+        "fpr": 0.0396,
+        "tpr": 0.6226
+      },
+      {
+        "fpr": 0.0495,
+        "tpr": 0.6226
+      },
+      {
+        "fpr": 0.0495,
+        "tpr": 0.6604
+      },
+      {
+        "fpr": 0.0594,
+        "tpr": 0.6604
+      },
+      {
+        "fpr": 0.0594,
+        "tpr": 0.717
+      },
+      {
+        "fpr": 0.0891,
+        "tpr": 0.717
+      },
+      {
+        "fpr": 0.0891,
+        "tpr": 0.7547
+      },
+      {
+        "fpr": 0.1386,
+        "tpr": 0.7547
+      },
+      {
+        "fpr": 0.1386,
+        "tpr": 0.7925
+      },
+      {
+        "fpr": 0.1485,
+        "tpr": 0.7925
+      },
+      {
+        "fpr": 0.1485,
+        "tpr": 0.8113
+      },
+      {
+        "fpr": 0.198,
+        "tpr": 0.8113
+      },
+      {
+        "fpr": 0.198,
+        "tpr": 0.8302
+      },
+      {
+        "fpr": 0.2277,
+        "tpr": 0.8302
+      },
+      {
+        "fpr": 0.2277,
+        "tpr": 0.8491
+      },
+      {
+        "fpr": 0.2772,
+        "tpr": 0.8491
+      },
+      {
+        "fpr": 0.2772,
+        "tpr": 0.8679
+      },
+      {
+        "fpr": 0.3267,
+        "tpr": 0.8679
+      },
+      {
+        "fpr": 0.3267,
+        "tpr": 0.8868
+      },
+      {
+        "fpr": 0.4455,
+        "tpr": 0.8868
+      },
+      {
+        "fpr": 0.4455,
+        "tpr": 0.9057
+      },
+      {
+        "fpr": 0.505,
+        "tpr": 0.9057
+      },
+      {
+        "fpr": 0.505,
+        "tpr": 0.9245
+      },
+      {
+        "fpr": 0.5644,
+        "tpr": 0.9245
+      },
+      {
+        "fpr": 0.5644,
+        "tpr": 0.9434
+      },
+      {
+        "fpr": 0.5743,
+        "tpr": 0.9434
+      },
+      {
+        "fpr": 0.5743,
+        "tpr": 0.9623
+      },
+      {
+        "fpr": 0.604,
+        "tpr": 0.9623
+      },
+      {
+        "fpr": 0.604,
+        "tpr": 0.9811
+      },
+      {
+        "fpr": 0.6931,
+        "tpr": 0.9811
+      },
+      {
+        "fpr": 0.6931,
+        "tpr": 1.0
+      },
+      {
+        "fpr": 1.0,
+        "tpr": 1.0
+      }
+    ]
+  },
+  "global_feature_importance": [
+    {
+      "feature": "Glucose",
+      "importance": 1.9753
+    },
+    {
+      "feature": "BMI",
+      "importance": 1.2202
+    },
+    {
+      "feature": "Age",
+      "importance": 0.904
+    },
+    {
+      "feature": "DiabetesPedigreeFunction",
+      "importance": 0.6964
+    },
+    {
+      "feature": "SkinThickness",
+      "importance": 0.1677
+    },
+    {
+      "feature": "Insulin",
+      "importance": 0.0891
+    },
+    {
+      "feature": "Pregnancies",
+      "importance": 0.0719
+    },
+    {
+      "feature": "BloodPressure",
+      "importance": 0.0663
+    }
+  ],
+  "trained_at": "2026-06-23T03:46:09Z",
+  "training_time_ms": 645
+}
